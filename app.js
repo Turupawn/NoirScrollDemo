@@ -5,7 +5,8 @@ import circuit from './circuit/target/circuit.json';
 const NETWORK_ID = 534351
 
 const MY_CONTRACT_ADDRESS = "0xb6C81f8625F2499Dfa5858717EFfFE06aFcEc91E"
-const MY_CONTRACT_ABI_PATH = "./json_abi/VerificationCounter.json"
+const MY_CONTRACT_ABI_PATH = "https://raw.githubusercontent.com/Turupawn/NoirScrollDemo/master/json_abi/VerificationCounter.json"
+//const MY_CONTRACT_ABI_PATH = "./json_abi/VerificationCounter.json"
 var my_contract
 
 var accounts
